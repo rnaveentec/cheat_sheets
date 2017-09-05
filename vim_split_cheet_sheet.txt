@@ -5,12 +5,24 @@ Open 2 files in vertival split
 ```
 
 
-Open a file in vertical split from inside vi editor
+Open another file in vertical split from inside vi editor
 
 ```
  :vsplit file1 
 ```
 
+Open another file in horizontal split from inside vi editor
+
+```
+ :split file1 
+```
+
+
+Swap top/down or left write split window
+
+```
+ crtl+w+r
+```
 
 Move cursor to another window
 
