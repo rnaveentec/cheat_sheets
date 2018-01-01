@@ -1,2 +1,2 @@
-# cheet_sheets
+# cheat_sheets
 This is my personal cheat sheet
