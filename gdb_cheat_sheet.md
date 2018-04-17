@@ -42,5 +42,16 @@ End with a line saying just "end".
 (gdb) set logging on
 Copying output to gdb.txt.
 (gdb) set pagination off
-(gdb)continue 
+(gdb)continue
+(gdb)end 
+```
+
+How to set number of elements to print from the array?
+```
+set print element <number of element>
+```
+
+How to print complete content of the array in GDB?
+```
+set print element 0
 ```
