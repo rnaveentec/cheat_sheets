@@ -2,13 +2,27 @@
 Attach GDB to a running process
 
 ```
-gdb /pid <pid_of_process>
+bash#gdb /pid <pid_of_process>
 ```
 
+Get backtrace from all the thread of a process
+```
+(gdb)thread apply all bt
+```
+
+List all the threads of a process
+```
+(gdb)info thread
+```
+
+Switch to a particular thread.(get the thread number from "info thread")
+```
+(gdb)thread <thread_number>
+```
 Attach GDB. Print the bt and detach
 
 ```
-gdb -batch -ex bt –p <pid>
+bash# gdb -batch -ex bt –p <pid>
 ```
 
 How to print a variable value each time when we hit a breakpoint?
