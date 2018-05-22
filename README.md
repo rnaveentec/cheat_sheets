@@ -1,2 +1,2 @@
 # cheat_sheets
-This is my personal cheat sheet
+This is my personal cheat sheet collections
