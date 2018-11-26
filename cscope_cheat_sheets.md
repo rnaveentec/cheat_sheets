@@ -3,7 +3,7 @@
 
 ```ctrl + ]```
 
-2. Jum back to the previos place where we used **ctrl+ ]**
+2. Jump back to the previos place where we used **ctrl+ ]**
 
 ```ctrl + t```
 
@@ -15,6 +15,6 @@
 
 ```]]```
 
-5.Find matching close/open for any of these 6 charecter **[{()}]**
+5. Move to matching close/open for any of these 6 charecter **[{()}]**
 
 ```%```
