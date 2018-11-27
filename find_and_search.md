@@ -7,6 +7,16 @@
 
 2. Search the file only to the next level folder(**maxdepth used for it**)
 
-    ```find -maxdepth 2 -type f -name <file name>```
+    ```find -maxdepth 2 -type f -name <file name>```   
+
+3. Find all the executable recursively
+
+    ```find . -type f -executable```
+
+4. Find and delete all the executable recursively
+
+    ```find . -type f -executable | xargs rm```
+
+
 
 ## Find command for directory
