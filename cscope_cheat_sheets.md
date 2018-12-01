@@ -1,4 +1,4 @@
-## Onliner to Build cscope and ctags for .c and .cpp files
+## One-Liner to Build cscope and ctags for .c and .cpp files
 
 ```find . -name '*.c' -o -name '*.cpp' -o -name '*.h' > cscope.files && /usr/bin/ctags -L cscope.files && cscope -b"```
 
