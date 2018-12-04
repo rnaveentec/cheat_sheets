@@ -22,13 +22,13 @@ tmux new -s <Session name>
 "Ctrl + b" then d
 ````
 
-## How to attach to tmux session?
+## How to re-attach to tmux session?
 
 ```
 tmux a
 ```
 
-## How to attach tmux to a named session?
+## How to re-attach tmux to a named session?
 
 ```
 tmux a -t <Session name>
