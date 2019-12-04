@@ -10,3 +10,8 @@ Replace a word in a particular line
 ```
 sed -i '2s/bad/good/' hello.txt
 ```
+
+Delete Trailing white spaces in python file
+```
+sed --in-place 's/[[:space:]]\+$//' file_name
+```
