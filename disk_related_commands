@@ -1,0 +1,7 @@
+list all block devices
+
+```lsblk
+   
+zero the block device
+
+```sudo dd if=/dev/zero of=/dev/sdc status=progress bs=32M && sync
