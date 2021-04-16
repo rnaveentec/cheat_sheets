@@ -1,8 +1,10 @@
 list all block devices
 
-```lsblk
+```
+lsblk
 ```   
 zero the block device
 
-```sudo dd if=/dev/zero of=/dev/sdX status=progress bs=32M && sync
+```
+sudo dd if=/dev/zero of=/dev/sdX status=progress bs=32M && sync
 ```
