@@ -55,3 +55,14 @@ How to print complete content of the array in GDB?
 ```
 set print element 0
 ```
+
+How to save breakpoint to a file?
+```
+save breakpoints filex.brk
+```
+
+How to load break points from a file?
+```
+set breakpoint pending on
+source filex.brk
+```
