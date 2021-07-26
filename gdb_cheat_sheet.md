@@ -19,6 +19,12 @@ Switch to a particular thread.(get the thread number from "info thread")
 ```
 (gdb)thread <thread_number>
 ```
+
+apply break point only for a particular thread
+```
+(gdb) break <funcion_name> thread <#thread_id>
+```
+
 Attach GDB. Print the bt and detach
 
 ```
