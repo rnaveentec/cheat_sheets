@@ -41,3 +41,13 @@ Start and Stop recording screen logs
 ```
 ctrl+a H
 ```
+
+Re-attach to the screen
+```
+screen -r
+```
+
+Fixing "There is no screen to be resumed." issue while re-attach
+```
+screen -d -r <pid>
+```
