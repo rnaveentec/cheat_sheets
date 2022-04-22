@@ -20,3 +20,7 @@
 
 
 ## Find command for directory
+
+5. Get specifc fields from 'ls -l' output
+   ```ls -l *test | cut -d " " -f 9```
+   Above command list all the file names ends with test(XXXXXtest) and the cut command with -d(delimiter) -f(filed) options print the nineth field sperated by space.
