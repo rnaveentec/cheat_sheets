@@ -72,3 +72,14 @@ How to load break points from a file?
 set breakpoint pending on
 source filex.brk
 ```
+
+How to avoid pressing next/enter repeatedly in large functions ?
+```
+(gdb) define nnext
+> set $foo = $arg0
+> while ($foo--)
+ >  next
+ >  end
+> end
+(gdb) nnext 100
+```
